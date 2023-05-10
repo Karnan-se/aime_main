@@ -1,0 +1,150 @@
+.body{
+    background-color: rgb(34, 25, 37);
+ } 
+
+
+
+
+.p-4{
+    display: flex;
+    gap: 40px;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+}
+.front{
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:  5px; 
+    overflow:scroll;
+    overflow: visible;
+}
+
+.image1 img{
+    width: 115%;
+    height: auto;
+    position: relative;
+    left: -97px;
+}
+.font4{
+    text-align: center;
+    justify-content: center ;
+
+}
+.font5{
+    text-align: center;
+    font-family:'Tangerine', serif;
+    font-size: 28px;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .hover1:hover{
+        color: rgb(247, 77, 233);
+        
+    }
+    /* TEXT */
+    .container3{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 150px;
+       
+        
+    
+
+    }
+    .carousel{
+        width: 115%;
+        left: -97px;
+        overflow: hidden;
+    }
+    .carousel-indicators{
+        color: rgb(75, 216, 216);
+
+    }
+    .carousel-item img{
+        object-fit: cover;
+        height: 530px;
+
+    }
+    .carousel-slide :active{
+        opacity: 1;
+    }
+ .container1{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 512px;
+    justify-content: center;
+    text-align: justify;
+    gap:30px;
+    background-color: rgb(26, 8, 8);
+  
+ }
+ .textcl1{
+    margin-left: 30px;
+    margin-right:30px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15pt;
+ }
+  .slick{
+    transition: all 1s;
+    filter:blur(5px);
+    transform: translateX(-100%);
+    transform: translateY(-50%);
+    opacity: 1;
+
+  }
+    
+ 
+ .hidden{
+    transition: all 1s;
+    filter:blur(5px);
+    transform: translateX(-100%);
+    transform: translateY(-50%);
+    opacity: 1;
+ }
+ .show{
+    opacity: 1;
+    filter: blur(0);
+    transform:translateY(5%);
+    margin-top: 12px;
+ }
+ .container4{
+    margin-top: 5px;
+    height: 20vh;
+    width: auto;
+
+ }
+ .textcl2{
+    place-content: center;
+    place-items: middle;
+    place-items: center;
+    color: rgb(16, 13, 13);
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15pt;
+    text-align: center;
+    font-family:'Tangerine', serif;
+    font-size: 28px;
+    }
+    .hidden2{
+        transition: all 1s;
+        filter:blur(5px);
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+ 
